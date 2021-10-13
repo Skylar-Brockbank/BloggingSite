@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(226, 204, 176, 0.568);
+  background-color: rgb(255, 239, 219);
 }
 
 .superpost{
@@ -12,17 +12,51 @@ body {
 }
 
 .subpost{
-  background-color: rgb(9, 51, 9);
+  /* background-color: rgb(9, 51, 9); */
+  background-color: rgb(95, 122, 86);
   color: white;
   padding: .5em;
-  border: solid .1em;
-  border-radius: .5em;
+  border: rgb(95, 122, 86) solid .2em;
+  border-radius: .75em;
 }
 
 .date {
   margin-bottom: .5em;
+  color: rgb(56, 49, 40);
 }
 
 .attachment{
   width: 100%;
+}
+
+#pageTitle{
+  color: rgb(56, 49, 40);
+  
+}
+
+ul {
+  list-style: none;
+  margin-right: 1em;
+}
+
+.nav li {
+  float: right;
+}
+
+.nav a{
+  text-decoration: none;
+  padding: 1em;
+  color: rgb(56, 49, 40);
+}
+
+.nav a:hover{
+  background-color: rgb(95, 122, 86);
+  color: white;
+}
+
+#face{
+  padding: 1em;
+  width: 70%;
+  margin: 0 auto;
+  display:block;
 }
